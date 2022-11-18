@@ -14,7 +14,7 @@ with st.container():
         st.write("WhatsApp: [+601127768326](https://wa.me/601127768326)")
     
     with right_column:
-        st.empty()
+        st.image("https://raw.githubusercontent.com/gist/fpanhan/1891a641c9fc183939a87bf696efec8d/raw/993fcbffdad748e045c0cc33d48dfca8e8fed271/contact.gif", width=300)
 
 file_name = "style.css"
 def local_css(file_name):

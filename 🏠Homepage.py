@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit.components.v1 as com
+#font-family: “Cabin”, sans-serif;
 
 st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
 
@@ -30,26 +32,93 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Check these out :point_down:")
-    left_column, right_column = st.columns(2)
-    with left_column:
-        #st.markdown("[![Foo](https://img.icons8.com/ios-glyphs/512/github.png)](https://github.com/haoxiang14)")
-        # st.image("https://img.icons8.com/ios-glyphs/512/linkedin-circled.png", width=50)
-        # st.image("https://img.icons8.com/ios-glyphs/512/github.png", width=50)
-        # st.image("https://img.icons8.com/color/512/hashnode.png", width=50)
-        # st.image("https://img.icons8.com/color-glass/512/interior-mirror.png", width=50)
-        # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
-        # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
-        # st.image("https://img.icons8.com/ios-glyphs/512/facebook-new.png", width=50)
-        # st.empty()
+        # #st.markdown("[![Foo](https://img.icons8.com/ios-glyphs/512/github.png)](https://github.com/haoxiang14)")
+        # # st.image("https://img.icons8.com/ios-glyphs/512/linkedin-circled.png", width=50)
+        # # st.image("https://img.icons8.com/ios-glyphs/512/github.png", width=50)
+        # # st.image("https://img.icons8.com/color/512/hashnode.png", width=50)
+        # # st.image("https://img.icons8.com/color-glass/512/interior-mirror.png", width=50)
+        # # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
+        # # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
+        # # st.image("https://img.icons8.com/ios-glyphs/512/facebook-new.png", width=50)
+        # # st.empty()
         
-        st.write("[LinkedIn](https://www.linkedin.com/in/tan-hao-xiang-845a4422a/)")
-        st.write("[GitHub](https://github.com/haoxiang14)")
-        st.write("[Hashnode](https://hashnode.com/@haoxiang14)")
-        st.write("[Twitter](https://twitter.com/SiLantroll14)")
-        st.write("[Mirror.xyz](https://mirror.xyz/silantroll.eth)")
-        st.write("[Instagram Personal](https://www.instagram.com/haoxiang.14/)")
-        st.write("[Instagram Education](https://www.instagram.com/cilantro.crypts/)")
-        st.write("[Facebook](https://www.facebook.com/hao.xiang.7796420/)")
+        # st.write("[LinkedIn](https://www.linkedin.com/in/tan-hao-xiang-845a4422a/)")
+        # st.write("[GitHub](https://github.com/haoxiang14)")
+        # st.write("[Hashnode](https://hashnode.com/@haoxiang14)")
+        # st.write("[Twitter](https://twitter.com/SiLantroll14)")
+        # st.write("[Mirror.xyz](https://mirror.xyz/silantroll.eth)")
+        # st.write("[Instagram Personal](https://www.instagram.com/haoxiang.14/)")
+        # st.write("[Instagram Education](https://www.instagram.com/cilantro.crypts/)")
+        # st.write("[Facebook](https://www.facebook.com/hao.xiang.7796420/)")
+        
+    com.html("""
+    
+    <style>
+    
+    .links{
+        text-decoration: none;
+        text-align: left;
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+
+
+    }
+
+    .social{
+        font-size: 30px;
+        font-family: Cabin, Arial, sans-serif;
+        
+    }
+    
+    
+    </style>
+
+    <head>
+        <script src="https://kit.fontawesome.com/289d4317a0.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class = "social">
+            <a href="https://twitter.com/SiLantroll14" target="_blank" class = "links">
+                <i class="fa-brands fa-twitter-square"></i> Twitter
+            </a> <br>
+    
+            <a href="https://www.instagram.com/haoxiang.14/" target="_blank" class = "links">
+                <i class="fa-brands fa-instagram"></i> Instagram-Personal
+            </a> <br>
+    
+            <a href="https://www.instagram.com/cilantro.crypts/" target="_blank" class = "links">
+                <i class="fa-brands fa-instagram"></i> Instagram-Edu 
+            </a> <br>
+    
+    
+            <a href="https://www.facebook.com/hao.xiang.7796420/" target="_blank" class = "links">
+                <i class="fa-brands fa-facebook"></i></i> Facebook
+            </a> <br>
+    
+            <a href="https://www.linkedin.com/in/tan-hao-xiang-845a4422a/" target="_blank" class = "links">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a> <br>
+    
+            <a href="https://github.com/haoxiang14" target="_blank" class = "links">
+                <i class="fa-brands fa-github-square"></i> GitHub
+            </a> <br>
+    
+            <a href="https://hashnode.com/@haoxiang14" target="_blank" class = "links">
+                <i class="fa-brands fa-hashnode"></i> Hashnode        
+            </a> <br>
+    
+            <a href="https://mirror.xyz/silantroll.eth" target="_blank" class = "links">
+                <i class="fa-solid fa-book"></i> Mirror.xyz      
+            </a> <br>
+    
+        </div>
+    </body>
+    """, height=1000)
+        
+
+        
     
 
 #streamlit run 🏠Homepage.py
