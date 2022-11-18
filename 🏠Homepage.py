@@ -33,27 +33,23 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         #st.markdown("[![Foo](https://img.icons8.com/ios-glyphs/512/github.png)](https://github.com/haoxiang14)")
-        st.image("https://img.icons8.com/ios-glyphs/512/linkedin-circled.png", width=50)
-        st.image("https://img.icons8.com/ios-glyphs/512/github.png", width=50)
-        st.image("https://img.icons8.com/color/512/hashnode.png", width=50)
-        st.image("https://img.icons8.com/color-glass/512/interior-mirror.png", width=50)
-        st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
-        st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
-        st.image("https://img.icons8.com/ios-glyphs/512/facebook-new.png", width=50)
-        st.empty()
+        # st.image("https://img.icons8.com/ios-glyphs/512/linkedin-circled.png", width=50)
+        # st.image("https://img.icons8.com/ios-glyphs/512/github.png", width=50)
+        # st.image("https://img.icons8.com/color/512/hashnode.png", width=50)
+        # st.image("https://img.icons8.com/color-glass/512/interior-mirror.png", width=50)
+        # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
+        # st.image("https://img.icons8.com/ios-glyphs/512/instagram-new.png", width=50)
+        # st.image("https://img.icons8.com/ios-glyphs/512/facebook-new.png", width=50)
+        # st.empty()
         
-        
-        
-
-        
-    # st.write("[LinkedIn](https://www.linkedin.com/in/tan-hao-xiang-845a4422a/)")
-    # st.write("[GitHub](https://github.com/haoxiang14)")
-    # st.write("[Hashnode](https://hashnode.com/@haoxiang14)")
-    # st.write("[Twitter](https://twitter.com/SiLantroll14)")
-    # st.write("[Mirror.xyz](https://mirror.xyz/silantroll.eth)")
-    # st.write("[Instagram Personal](https://www.instagram.com/haoxiang.14/)")
-    # st.write("[Instagram Education](https://www.instagram.com/cilantro.crypts/)")
-    # st.write("[Facebook](https://www.facebook.com/hao.xiang.7796420/)")
+        st.write("[LinkedIn](https://www.linkedin.com/in/tan-hao-xiang-845a4422a/)")
+        st.write("[GitHub](https://github.com/haoxiang14)")
+        st.write("[Hashnode](https://hashnode.com/@haoxiang14)")
+        st.write("[Twitter](https://twitter.com/SiLantroll14)")
+        st.write("[Mirror.xyz](https://mirror.xyz/silantroll.eth)")
+        st.write("[Instagram Personal](https://www.instagram.com/haoxiang.14/)")
+        st.write("[Instagram Education](https://www.instagram.com/cilantro.crypts/)")
+        st.write("[Facebook](https://www.facebook.com/hao.xiang.7796420/)")
     
 
 #streamlit run 🏠Homepage.py

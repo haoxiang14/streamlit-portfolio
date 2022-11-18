@@ -1,4 +1,5 @@
 import streamlit as st
+st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
 
 with st.container():
     st.title("My Project")
