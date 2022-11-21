@@ -11,21 +11,48 @@ with st.container():
 
 with st.container():
     st.subheader("Hi, I'm Hao Xiang :wave:")
+    st.write("""
+             I'm a student in Asia Pacific University, Kuala Lumpur, Malaysia, majoring in Computer Science, currently in my 2nd year of study. 
+             I'm interested in Data Science, Web and Software Development.  
+             """)
 
     
 with st.container():
     st.write("---")
     st.header("About Me")
     #st.subheader("Student in Asia Pacific University")
-    st.write("""        
-        A non stop learner that would like to improve and broaden my skill set through  doing some new and difficult tasks. 
+    st.write("""
+        I love programming, creating content, and doing research. 
+        While I am free, I will do some research and create content for my Instagram account because it will help me and others at the same time. 
+        My favorite programming languages are Python and HTML because Python is very easy to learn, and I like Web Development. 
+        I am looking forward to learning more about JavaScript because it is important to build Web 3 products. 
+        I am able to speak English, Malay, and Chinese well although Chinese is my mother tongue.\n
+             """)
+    st.write("""
+        I am also a non stop learner that would like to improve and broaden my skill set through  doing some new and difficult tasks. 
         I enjoy working in teams but at the same time I am capable of handling tasks on my own. 
         Highly enthusiasts in Blockchain, Web 3, NFTs, cryptocurrency and etc which can be the technology of the future.
         """)
+    
+
 
 with st.container():
     st.write("---")
     st.header("My Experience")
+    
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.subheader("RND Lead and Community Manager in APU Blockchain and Cryptocurrency Club")
+        st.write("""
+             APU Blockchain and Cryptocurrency Club (APUBCC) is the first and ever Blockchain and Cryptocurrency Club among Malaysia universities. 
+             APU BCC aims to be the leading blockchain club in Malaysia to spread blockchain knowledge among students.
+             """)
+    
+        st.subheader("Scholar in KopiDAO")
+        st.write("""
+            KopiDAO is a decentralized autonomous organization that aims to create a learning and building community where anyone can contribute to growing the Web3 ecosystem through their diverse skill sets.
+            """)
+    
     
     
     
