@@ -1,20 +1,65 @@
 import streamlit as st
+import streamlit.components.v1 as com
+
+
 st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
 
 with st.container():
     st.title("My Contact")
 
 with st.container():
-    st.header("Contact")
+    # st.header("Contact")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.write("Phone: +6011-2776 8326")
-        st.write("Email: haoxiangt.14@gmail.com")
-        st.write("School Email: Tp060906@mail.apu.edu.my")
-        st.write("WhatsApp: [+601127768326](https://wa.me/601127768326)")
-    
-    with right_column:
-        st.image("https://raw.githubusercontent.com/gist/fpanhan/1891a641c9fc183939a87bf696efec8d/raw/993fcbffdad748e045c0cc33d48dfca8e8fed271/contact.gif", width=300)
+        # st.write("Phone: +6011-2776 8326")
+        # st.write("Email: haoxiangt.14@gmail.com")
+        # st.write("School Email: Tp060906@mail.apu.edu.my")
+        # st.write("WhatsApp: [+601127768326](https://wa.me/601127768326)")
+        com.html("""
+        
+        <style>
+            .contacts{
+                font-size: 15px;
+                font-family: Cabin, Arial, sans-serif;
+            }
+        </style>       
+        
+        
+        <head>
+            <script src="https://kit.fontawesome.com/289d4317a0.js" crossorigin="anonymous"></script>
+        </head>
+
+
+        <body>
+            <div class="contact">
+                <p class="contacts"> <i class="fa-solid fa-phone"></i> Phone: +601127768326 </p>
+
+                <p class="contacts"> <i class="fa-solid fa-envelope"></i> Email: <a href= "mailto: haoxiangt.14@gmail.com"> haoxiangt.14@gmail.com </a></p>
+
+                <p class = "contacts"> <i class="fa-solid fa-inbox"></i> School Mail: <a href= "mailto: Tp060906@mail.apu.edu.my"> Tp060906@mail.apu.edu.my </a></p>
+
+                <p class = "contacts"> <i class="fa-brands fa-discord"></i> Discord: haoxiang #1513</p>
+
+                <p class = "contacts"> <i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/601127768326" target="_blank"> +601127768326 </a> </p>
+
+                <p class = "contacts"> <i class="fa-brands fa-telegram"></i> Telegram: <a href= "https://t.me/haoxiang_14" target="_blank"> @haoxiang_14 </a></p>
+
+            </div>
+
+        </body>
+
+        """, height=250,width=800)
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+
 
 file_name = "style.css"
 def local_css(file_name):

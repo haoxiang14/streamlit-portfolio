@@ -55,19 +55,25 @@ with st.container():
     
     <style>
     
-    .links{
+    .links {
         text-decoration: none;
         text-align: left;
         margin-top: 20px;
         width: 300px;
         display: block;
-
+        
 
     }
+    
+    .links:hover {
+        color: grey;
+    }
+    
 
-    .social{
+    .social {
         font-size: 30px;
         font-family: Cabin, Arial, sans-serif;
+        
         
     }
     
@@ -89,7 +95,7 @@ with st.container():
             </a> <br>
     
             <a href="https://www.instagram.com/cilantro.crypts/" target="_blank" class = "links">
-                <i class="fa-brands fa-instagram"></i> Instagram-Edu 
+                <i class="fa-brands fa-instagram"></i> Instagram-Web3 
             </a> <br>
     
     
@@ -115,9 +121,14 @@ with st.container():
     
         </div>
     </body>
-    """, height=1000)
+    """, height=800)
         
 
+with st.container():
+    st.write("---")
+    st.header("My Resume")
+    st.write("Download now for more information :point_down:")
+    st.download_button("Download", "https://cdn.discordapp.com/attachments/966648657996828708/1041641148386639943/bpyc.jpeg", key="resume")
         
     
 
