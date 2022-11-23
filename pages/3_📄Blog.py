@@ -12,7 +12,7 @@ with st.container():
         
     with right_column:
         st.subheader("NFTs: Non Fungible Tokens")
-        st.write("This article is mainly about the basics of Non-Fungible Tokens (NFTs) and also the situation of the NFT market in Malaysia, is it profitable 🤔?")
+        
         st.write("[Learn More](https://haoxiang.hashnode.dev/nfts-non-fungible-tokens)")
         
         
