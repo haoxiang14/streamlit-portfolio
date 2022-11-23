@@ -12,6 +12,7 @@ with st.container():
         
     with right_column:
         st.subheader("NFTs: Non Fungible Tokens")
+        st.write("This article is mainly about the basics of Non-Fungible Tokens (NFTs) and also the situation of the NFT market in Malaysia, is it profitable 🤔?")
         st.write("[Learn More](https://haoxiang.hashnode.dev/nfts-non-fungible-tokens)")
         
         
@@ -23,4 +24,5 @@ with st.container():
         
     with right_column:
         st.subheader("How to use Discord to manage a DAO")
+        st.write("This article is mainly about how to use Discord to manage a DAO as Discord is very a useful tool to use to manage a community 😎.")
         st.write("[Learn More](https://haoxiang.hashnode.dev/how-to-use-discord-to-manage-a-dao)")
