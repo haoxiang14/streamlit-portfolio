@@ -14,6 +14,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 
 with st.container():
     st.title("My Contact")
+    st.write("---")
 
 with st.container():
     # st.header("Contact")
@@ -27,7 +28,7 @@ with st.container():
         
         <style>
             .contacts{
-                font-size: 15px;
+                font-size: 20px;
                 font-family: Cabin, Arial, sans-serif;
             }
         </style>       
@@ -56,7 +57,7 @@ with st.container():
 
         </body>
 
-        """, height=250,width=800)
+        """, height=300,width=800)
             
             
             
