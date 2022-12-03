@@ -1,13 +1,12 @@
 import streamlit as st
 import streamlit.components.v1 as com
-import json
 from streamlit_lottie import st_lottie
 
 st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
-#MainMenu {visibility: hidden;}
+
 hide_menu_style = """
         <style>
-        
+        #MainMenu {visibility: hidden;}
         footer {visibility: hidden;}
         </style>
         """
