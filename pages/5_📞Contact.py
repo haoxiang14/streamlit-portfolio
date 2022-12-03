@@ -30,7 +30,12 @@ with st.container():
             .contacts{
                 font-size: 20px;
                 font-family: Cabin, Arial, sans-serif;
+                color: #E8C4C4;
             }
+            .contacts:hover {
+                color: grey;
+            }
+    
         </style>       
         
         

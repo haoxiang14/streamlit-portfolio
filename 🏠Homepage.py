@@ -3,24 +3,11 @@ import streamlit.components.v1 as com
 import json
 from streamlit_lottie import st_lottie
 
-#font-family: “Cabin”, sans-serif;
-
-
-
-# def open_lottiefile(file):
-#     with open(file) as f:
-#         return json.load(f)
-    
-# image_eth = open_lottiefile("eth.json")
-# image_programmer = open_lottiefile("programmer.json")
-
-
-
 st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
-
+#MainMenu {visibility: hidden;}
 hide_menu_style = """
         <style>
-        #MainMenu {visibility: hidden;}
+        
         footer {visibility: hidden;}
         </style>
         """
@@ -121,6 +108,7 @@ with st.container():
         margin-top: 20px;
         width: 300px;
         display: block;
+        color: #E8C4C4;
         
 
     }
