@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit.components.v1 as com
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Hao Xiang's Portfolio", page_icon="https://cdn.discordapp.com/attachments/966648657996828708/1041641148386639943/bpyc.jpeg", layout="wide", initial_sidebar_state="expanded")
 
 hide_menu_style = """
         <style>
@@ -80,9 +80,21 @@ with st.container():
             st.write("""
             KopiDAO is a decentralized autonomous organization that aims to create a learning and building community where anyone can contribute to growing the Web3 ecosystem through their diverse skill sets.
             """)
-            st.image("https://cdn.discordapp.com/attachments/966648657996828708/1047925944200986714/Untitled_design.png", width=200)
+            st.image("https://cdn.discordapp.com/attachments/966648657996828708/1048647235904213082/Untitled_design_2.png", width=200)
         with col2:
             st.empty()
+
+        with col1:
+            st.write("\n\n")
+            st.subheader("Certified LUNO Educator")
+            st.write("""
+            Luno is a cryptocurrency exchange that allows you to buy, sell, store and learn about cryptocurrencies like Bitcoin and Ethereum.
+            """)
+            st.image("https://cdn.discordapp.com/attachments/966648657996828708/1048595789666066442/Untitled_design_1.png", width=200)
+        with col2:
+            st.empty()
+
+
     
     with tab2:
         st.subheader("Foundation in Computing Technology")
@@ -175,7 +187,7 @@ with st.container():
     st.write("---")
     st.header("My Resume")
     st.write("Download my resume now for more information 🤗")
-    with open("resume.pdf", "rb") as f:
+    with open("Haoxiang's Resume.pdf", "rb") as f:
         st.download_button(label="Download", data= f, file_name="resume.pdf", mime="application/pdf")
         
     

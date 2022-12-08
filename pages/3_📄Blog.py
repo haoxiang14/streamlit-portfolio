@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config(page_title="My Website", page_icon=":smiley:", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Hao Xiang's Portfolio", page_icon="https://cdn.discordapp.com/attachments/966648657996828708/1041641148386639943/bpyc.jpeg", layout="wide", initial_sidebar_state="expanded")
 
 hide_menu_style = """
         <style>
